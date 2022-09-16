@@ -1,0 +1,61 @@
+body {
+    background-color: firebrick;
+}
+.firebrick_bg_colour {
+    background-color: firebrick;
+}
+.firebrick_border_colour {
+    border-color: firebrick;
+}
+.noborder {
+    border:0px;
+}
+.hide {
+    display: none;
+}
+.nopadding {
+    padding:0px;
+    padding-bottom: 0px;
+}
+.b_div_text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+.b_div {
+    position: relative;
+    text-align: center;
+    color: black;
+  }
+.top_right {
+    text-align:right;
+    position: relative;
+}
+.top_left {
+    text-align:left;
+    position: relative;
+    
+}
+.centre {
+    text-align: center;
+    align-self: center;
+}
+.rm_normal {
+    font-family: 'Roboto Mono';
+    font-weight: 400;
+}
+.button.aqua {
+    background-color: aquamarine;
+    border-color: aqua;
+}
+.xxl {
+    font-size:xx-large;
+}
+.question.honeydew {
+    color:honeydew
+}
+#answers {
+    margin: 0 auto;
+    max-width: 500px;
+}

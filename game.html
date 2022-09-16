@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Maths Game!</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet"> 
+        <script src="src/timer.js"></script>
+        <script src="src/game.js"></script>
+        <link rel="stylesheet" href="src/style.css">
+        <meta http-equiv="refresh">
+    </head>
+    <body class="rm_normal" onload="start('play', 15)">
+        <h2 id="score" class="top_right">0</h2>
+        
+        <h3 style="display:none;">ok :)</h3>
+        <div id="popup" class="popup centre firebrick_bg_colour hide">
+            <h1>Good Job!</h1>
+            <h2>You got {{rightCount}} out of {{totalCount}}</h2>
+            <h2>Would you like to play again? <button class="button aqua" onclick="go_main_page()">Yes!</button></2>
+        </div>
+        <div id="question_div" class="question honeydew">
+
+            <!--question-->
+        </div>
+        <div id="answers">
+            <!--options-->
+        </div>
+        <h2 id="timer" class="top_left">60</h2>
+    </body>
+</html>
